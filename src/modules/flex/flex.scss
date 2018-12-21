@@ -1,0 +1,14 @@
+@import "../../sass/abstracts/variables";
+
+.container {
+    background-color: $color-grey-common;
+    padding: 10px;
+}
+
+.item {
+    background-color: $color-pink-1;
+    padding: 30px;
+    margin: 30px;
+    color: $color-white;
+    font-size: 40px;
+}
