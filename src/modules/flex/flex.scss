@@ -3,6 +3,15 @@
 .container {
     background-color: $color-grey-common;
     padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
 .item {
@@ -11,4 +20,17 @@
     margin: 30px;
     color: $color-white;
     font-size: 40px;
+
+    // flex-grow: 1;
+}
+
+.i2 {
+    height: 200px;
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+
+.i4 {
+    align-self: flex-end;
+    flex: 1;
 }
